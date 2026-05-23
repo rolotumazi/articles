@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Articles</title>
+<style>:root {
+  color-scheme: light dark;
+  --fg: #1a1a1a; --muted: #6b6b6b; --bg: #fafaf7; --accent: #7a3f00;
+  --card: #ffffff; --border: #e7e3d8; --code: #f1eee4;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fg: #ececec; --muted: #9b9b9b; --bg: #15140f; --accent: #e8a96b;
+    --card: #1d1b15; --border: #2c2920; --code: #211f17;
+  }
+}
+* { box-sizing: border-box; }
+html, body { background: var(--bg); color: var(--fg); margin: 0; }
+body {
+  font: 18px/1.62 Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+  padding: 2.5rem 1.25rem 4rem;
+}
+.wrap { max-width: 42rem; margin: 0 auto; }
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+h1 { font-size: clamp(1.7rem, 5vw, 2.4rem); line-height: 1.2; margin: 0 0 .6rem; }
+h2 { font-size: 1.45rem; line-height: 1.25; margin: 2.4rem 0 .7rem; }
+h3 { font-size: 1.15rem; margin: 1.8rem 0 .5rem; }
+p { margin: 0 0 1.1rem; }
+blockquote {
+  margin: 1.2rem 0; padding: .2rem 0 .2rem 1.1rem;
+  border-left: 3px solid var(--accent); color: var(--muted); font-style: italic;
+}
+code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  font-size: .9em; background: var(--code); padding: .1em .35em; border-radius: 4px;
+}
+pre { background: var(--code); padding: 1rem; border-radius: 8px; overflow-x: auto; }
+pre code { background: none; padding: 0; }
+hr { border: none; border-top: 1px solid var(--border); margin: 2.5rem 0; }
+.back { color: var(--muted); font-size: .95rem; margin: 0 0 1.5rem; }
+.credit { color: var(--muted); font-size: .98rem; margin: 0 0 2rem; }
+details.toc {
+  margin: 0 0 2.5rem; padding: .9rem 1.1rem; background: var(--card);
+  border: 1px solid var(--border); border-radius: 10px;
+}
+details.toc summary { cursor: pointer; font-weight: bold; color: var(--accent); }
+details.toc ul { margin: .7rem 0 0; padding-left: 1.2rem; }
+details.toc a { color: var(--fg); }
+footer {
+  margin-top: 3rem; padding-top: 1.4rem; border-top: 1px solid var(--border);
+  color: var(--muted); font-size: .95rem;
+}
+/* index */
+.site-head { text-align: center; margin-bottom: 2.8rem; }
+.site-head h1 { margin-bottom: .4rem; }
+.site-head p { color: var(--muted); margin: 0; }
+.card {
+  display: flex; gap: 1rem; padding: 1rem; margin: 0 0 1.2rem;
+  background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+}
+.card .thumb-link { flex: 0 0 auto; }
+.card img {
+  width: 160px; height: 90px; object-fit: cover; border-radius: 8px; display: block;
+}
+.card .meta { min-width: 0; }
+.card h2 { margin: 0 0 .3rem; font-size: 1.2rem; line-height: 1.25; }
+.card h2 a { color: var(--fg); text-decoration: none; }
+.card h2 a:hover { color: var(--accent); }
+.card .sub { color: var(--muted); font-size: .9rem; margin: 0; }
+.card .src { margin: .35rem 0 0; font-size: .9rem; }
+@media (max-width: 540px) {
+  .card { flex-direction: column; }
+  .card img { width: 100%; height: auto; aspect-ratio: 16 / 9; }
+}</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site-head">
+<h1>Articles</h1>
+<p>Lightly edited transcripts of talks &amp; videos. Full credit to the original creators.</p>
+</header>
+<article class="card">
+<a class="thumb-link" href="your-iphone-is-about-to-control-every-ai-app-you-use-heres-what-this-m/"><img src="https://img.youtube.com/vi/BhXNtvZvziY/hqdefault.jpg" alt="" loading="lazy"></a>
+<div class="meta">
+<h2><a href="your-iphone-is-about-to-control-every-ai-app-you-use-heres-what-this-m/">Your iPhone Is About to Control Every AI App You Use. Here&#x27;s What This Means For You.</a></h2>
+<p class="sub">23 May 2026</p>
+<p class="src"><a href="https://www.youtube.com/watch?v=BhXNtvZvziY">▶ Watch original on YouTube</a></p>
+</div>
+</article>
+<article class="card">
+<a class="thumb-link" href="the-ai-job-market-split-in-two-one-side-pays-400k-and-cant-hire-fast-e/"><img src="https://img.youtube.com/vi/4cuT-LKcmWs/hqdefault.jpg" alt="" loading="lazy"></a>
+<div class="meta">
+<h2><a href="the-ai-job-market-split-in-two-one-side-pays-400k-and-cant-hire-fast-e/">The AI Job Market Split in Two. One Side Pays $400K and Can&#x27;t Hire Fast Enough.</a></h2>
+<p class="sub">23 May 2026</p>
+<p class="src"><a href="https://www.youtube.com/watch?v=4cuT-LKcmWs">▶ Watch original on YouTube</a></p>
+</div>
+</article>
+<article class="card">
+<a class="thumb-link" href="ibn-arabi-and-the-unity-of-being/"><img src="https://img.youtube.com/vi/-bgWnzjONXE/hqdefault.jpg" alt="" loading="lazy"></a>
+<div class="meta">
+<h2><a href="ibn-arabi-and-the-unity-of-being/">Ibn &#x27;Arabi &amp; The Unity of Being</a></h2>
+<p class="sub">23 May 2026</p>
+<p class="src"><a href="https://www.youtube.com/watch?v=-bgWnzjONXE">▶ Watch original on YouTube</a></p>
+</div>
+</article>
+<article class="card">
+<a class="thumb-link" href="i-found-200-dead-babies-in-a-hospital-basement-najah-bazzy/"><img src="https://img.youtube.com/vi/R8C5_OHKSBA/hqdefault.jpg" alt="" loading="lazy"></a>
+<div class="meta">
+<h2><a href="i-found-200-dead-babies-in-a-hospital-basement-najah-bazzy/">I Found 200 Dead Babies in a Hospital Basement | Najah Bazzy</a></h2>
+<p class="sub">23 May 2026</p>
+<p class="src"><a href="https://www.youtube.com/watch?v=R8C5_OHKSBA">▶ Watch original on YouTube</a></p>
+</div>
+</article>
+<article class="card">
+<a class="thumb-link" href="ex-google-exec-how-to-position-yourself-now-before-the-next-ai-phase-2/"><img src="https://img.youtube.com/vi/E0Q96IKXx6Q/hqdefault.jpg" alt="" loading="lazy"></a>
+<div class="meta">
+<h2><a href="ex-google-exec-how-to-position-yourself-now-before-the-next-ai-phase-2/">Ex-Google Exec: How to Position Yourself Now Before the Next AI Phase (2026–2027) | Mo Gawdat</a></h2>
+<p class="sub">23 May 2026</p>
+<p class="src"><a href="https://www.youtube.com/watch?v=E0Q96IKXx6Q">▶ Watch original on YouTube</a></p>
+</div>
+</article>
+<article class="card">
+<a class="thumb-link" href="every-claude-code-secret-its-creator-just-revealed/"><img src="https://img.youtube.com/vi/JcY1LekT954/hqdefault.jpg" alt="" loading="lazy"></a>
+<div class="meta">
+<h2><a href="every-claude-code-secret-its-creator-just-revealed/">Every Claude Code Secret Its Creator Just Revealed</a></h2>
+<p class="sub">23 May 2026</p>
+<p class="src"><a href="https://www.youtube.com/watch?v=JcY1LekT954">▶ Watch original on YouTube</a></p>
+</div>
+</article>
+</div>
+</body>
+</html>
