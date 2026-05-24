@@ -51,6 +51,20 @@ footer {
   margin-top: 3rem; padding-top: 1.4rem; border-top: 1px solid var(--border);
   color: var(--muted); font-size: .95rem;
 }
+/* per-heading chapter timestamp links */
+a.ts {
+  font-size: .62em; font-weight: normal; color: var(--muted);
+  text-decoration: none; margin-left: .5em; vertical-align: middle;
+  white-space: nowrap; letter-spacing: .02em;
+}
+a.ts:hover { color: var(--accent); }
+/* "video removed" notice */
+.notice {
+  margin: 0 0 1.9rem; padding: .8rem 1rem; border-radius: 8px;
+  background: var(--code); border: 1px solid var(--border);
+  border-left: 3px solid var(--accent); color: var(--fg); font-size: .95rem;
+}
+.notice a { white-space: nowrap; }
 /* index */
 .site-head { text-align: center; margin-bottom: 2.8rem; }
 .site-head h1 { margin-bottom: .4rem; }
@@ -63,6 +77,13 @@ footer {
 .card img {
   width: 160px; height: 90px; object-fit: cover; border-radius: 8px; display: block;
 }
+.card .thumb-gone {
+  width: 160px; height: 90px; flex: 0 0 auto; border-radius: 8px;
+  background: var(--code); border: 1px dashed var(--border); color: var(--muted);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  font-size: .72rem; line-height: 1.25; text-align: center;
+}
+.card .src.unavail { color: var(--muted); }
 .card .meta { min-width: 0; }
 .card h2 { margin: 0 0 .3rem; font-size: 1.2rem; line-height: 1.25; }
 .card h2 a { color: var(--fg); text-decoration: none; }
@@ -113,11 +134,11 @@ footer {
 </div>
 </article>
 <article class="card">
-<a class="thumb-link" href="richard-feynman-explains-time-like-youve-never-seen-before/"><img src="https://img.youtube.com/vi/zUHtlXA1f-w/hqdefault.jpg" alt="" loading="lazy"></a>
+<div class="thumb-gone" aria-hidden="true">⚠<br>no longer<br>on YouTube</div>
 <div class="meta">
 <h2><a href="richard-feynman-explains-time-like-youve-never-seen-before/">Richard Feynman Explains Time Like You’ve Never Seen Before</a></h2>
 <p class="sub">23 May 2026</p>
-<p class="src"><a href="https://www.youtube.com/watch?v=zUHtlXA1f-w">▶ Watch original on YouTube</a></p>
+<p class="src unavail">No longer on YouTube · <a href="https://www.youtube.com/watch?v=zUHtlXA1f-w">original link ↗</a></p>
 </div>
 </article>
 <article class="card">
@@ -169,11 +190,11 @@ footer {
 </div>
 </article>
 <article class="card">
-<a class="thumb-link" href="alan-watts-you-are-already-enough-stop-trying-to-fix-yourself/"><img src="https://img.youtube.com/vi/_ZPBGv2BG6U/hqdefault.jpg" alt="" loading="lazy"></a>
+<div class="thumb-gone" aria-hidden="true">⚠<br>no longer<br>on YouTube</div>
 <div class="meta">
 <h2><a href="alan-watts-you-are-already-enough-stop-trying-to-fix-yourself/">Alan Watts : You are already enough, stop trying to fix yourself</a></h2>
 <p class="sub">23 May 2026</p>
-<p class="src"><a href="https://www.youtube.com/watch?v=_ZPBGv2BG6U">▶ Watch original on YouTube</a></p>
+<p class="src unavail">No longer on YouTube · <a href="https://www.youtube.com/watch?v=_ZPBGv2BG6U">original link ↗</a></p>
 </div>
 </article>
 </div>
