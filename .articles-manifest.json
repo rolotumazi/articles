@@ -4,6 +4,7 @@
     "source_url": "https://www.youtube.com/watch?v=_ZPBGv2BG6U",
     "video_id": "_ZPBGv2BG6U",
     "unavailable": "The original video is no longer on YouTube — the channel that posted it has been terminated.",
+    "category": "Philosophy & Science",
     "published": "2026-05-23"
   },
   "claude-cowork-fundamentals-in-22-minutes": {
@@ -11,6 +12,7 @@
     "source_url": "https://www.youtube.com/watch?v=uGwDuvSqgYI",
     "video_id": "uGwDuvSqgYI",
     "unavailable": null,
+    "category": "AI & Technology",
     "published": "2026-05-23"
   },
   "every-claude-code-secret-its-creator-just-revealed": {
@@ -18,6 +20,7 @@
     "source_url": "https://www.youtube.com/watch?v=JcY1LekT954",
     "video_id": "JcY1LekT954",
     "unavailable": null,
+    "category": "AI & Technology",
     "published": "2026-05-23"
   },
   "ex-google-exec-how-to-position-yourself-now-before-the-next-ai-phase-2": {
@@ -25,13 +28,23 @@
     "source_url": "https://www.youtube.com/watch?v=E0Q96IKXx6Q",
     "video_id": "E0Q96IKXx6Q",
     "unavailable": null,
+    "category": "AI & Technology",
     "published": "2026-05-23"
+  },
+  "hidden-layers-of-intention-in-human-mind-shaykh-abdal-hakim-murad": {
+    "title": "Hidden Layers of Intention in Human Mind - Shaykh Abdal Hakim Murad",
+    "source_url": "https://www.youtube.com/watch?v=KtywOSSWUls",
+    "video_id": "KtywOSSWUls",
+    "unavailable": null,
+    "category": "Islam & Spirituality",
+    "published": "2026-09-21"
   },
   "how-to-make-the-month-of-rajab-special-must-watch": {
     "title": "How to Make the Month of Rajab Special | Must Watch",
     "source_url": "https://www.youtube.com/watch?v=UV09XN_yLp0",
     "video_id": "UV09XN_yLp0",
     "unavailable": null,
+    "category": "Islam & Spirituality",
     "published": "2026-05-23"
   },
   "i-found-200-dead-babies-in-a-hospital-basement-najah-bazzy": {
@@ -39,6 +52,7 @@
     "source_url": "https://www.youtube.com/watch?v=R8C5_OHKSBA",
     "video_id": "R8C5_OHKSBA",
     "unavailable": null,
+    "category": "Islam & Spirituality",
     "published": "2026-05-23"
   },
   "ibn-arabi-and-the-unity-of-being": {
@@ -46,6 +60,7 @@
     "source_url": "https://www.youtube.com/watch?v=-bgWnzjONXE",
     "video_id": "-bgWnzjONXE",
     "unavailable": null,
+    "category": "Islam & Spirituality",
     "published": "2026-05-23"
   },
   "richard-feynman-explains-time-like-youve-never-seen-before": {
@@ -53,6 +68,7 @@
     "source_url": "https://www.youtube.com/watch?v=zUHtlXA1f-w",
     "video_id": "zUHtlXA1f-w",
     "unavailable": "The original video has been removed from YouTube and is no longer available.",
+    "category": "Philosophy & Science",
     "published": "2026-05-23"
   },
   "stoicism-everything-you-need-to-know": {
@@ -60,13 +76,23 @@
     "source_url": "https://www.youtube.com/watch?v=lQOWyoO92Co",
     "video_id": "lQOWyoO92Co",
     "unavailable": null,
+    "category": "Philosophy & Science",
     "published": "2026-05-23"
+  },
+  "the-3-elements-of-stupidity-according-to-philosophy-jonny-thomson-full": {
+    "title": "The 3 elements of stupidity, according to philosophy | Jonny Thomson: Full Interview",
+    "source_url": "https://www.youtube.com/watch?v=HbQ-t8GXYTA",
+    "video_id": "HbQ-t8GXYTA",
+    "unavailable": null,
+    "category": "Philosophy & Science",
+    "published": "2026-09-21"
   },
   "the-ai-job-market-split-in-two-one-side-pays-400k-and-cant-hire-fast-e": {
     "title": "The AI Job Market Split in Two. One Side Pays $400K and Can't Hire Fast Enough.",
     "source_url": "https://www.youtube.com/watch?v=4cuT-LKcmWs",
     "video_id": "4cuT-LKcmWs",
     "unavailable": null,
+    "category": "AI & Technology",
     "published": "2026-05-23"
   },
   "the-sufi-muslim-warrior-who-protected-christians": {
@@ -74,6 +100,7 @@
     "source_url": "https://www.youtube.com/watch?v=zqjgPr3zlBE",
     "video_id": "zqjgPr3zlBE",
     "unavailable": null,
+    "category": "Islam & Spirituality",
     "published": "2026-05-23"
   },
   "your-iphone-is-about-to-control-every-ai-app-you-use-heres-what-this-m": {
@@ -81,6 +108,7 @@
     "source_url": "https://www.youtube.com/watch?v=BhXNtvZvziY",
     "video_id": "BhXNtvZvziY",
     "unavailable": null,
+    "category": "AI & Technology",
     "published": "2026-05-23"
   }
 }

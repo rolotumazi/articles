@@ -85,9 +85,34 @@ a.ts:hover { color: var(--accent); }
 }
 .card .src.unavail { color: var(--muted); }
 .card .meta { min-width: 0; }
-.card h2 { margin: 0 0 .3rem; font-size: 1.2rem; line-height: 1.25; }
-.card h2 a { color: var(--fg); text-decoration: none; }
-.card h2 a:hover { color: var(--accent); }
+.card h2, .card h3 { margin: 0 0 .3rem; font-size: 1.2rem; line-height: 1.25; }
+.card h2 a, .card h3 a { color: var(--fg); text-decoration: none; }
+.card h2 a:hover, .card h3 a:hover { color: var(--accent); }
+/* index grouped by category: jump nav, "recently added", one section each */
+.cats {
+  display: flex; flex-wrap: wrap; justify-content: center; gap: .5rem;
+  margin: 0 0 2.6rem;
+}
+.cats a {
+  padding: .28rem .85rem; border: 1px solid var(--border); border-radius: 999px;
+  background: var(--card); color: var(--fg); text-decoration: none; font-size: .92rem;
+}
+.cats a:hover { color: var(--accent); border-color: var(--accent); }
+.cats .n, .cat-head .n { color: var(--muted); font-size: .8em; margin-left: .35em; }
+.latest, section.cat { margin: 0 0 2.8rem; }
+section.cat { scroll-margin-top: 1rem; }
+.latest h2 {
+  margin: 0 0 .8rem; font-size: .85rem; font-weight: normal; color: var(--muted);
+  letter-spacing: .1em; text-transform: uppercase;
+}
+.latest ul { list-style: none; margin: 0; padding: 0; }
+.latest li { margin: 0 0 .6rem; line-height: 1.35; }
+.latest li a { color: var(--fg); text-decoration: none; }
+.latest li a:hover { color: var(--accent); }
+.latest .sub { display: block; color: var(--muted); font-size: .85rem; }
+.cat-head {
+  margin: 0 0 1.1rem; padding-bottom: .45rem; border-bottom: 1px solid var(--border);
+}
 .card .sub { color: var(--muted); font-size: .9rem; margin: 0; }
 .card .src { margin: .35rem 0 0; font-size: .9rem; }
 @media (max-width: 540px) {
@@ -99,7 +124,7 @@ a.ts:hover { color: var(--accent); }
 <div class="wrap">
 <p class="back"><a href="../">← All articles</a></p>
 <h1>I Found 200 Dead Babies in a Hospital Basement | Najah Bazzy</h1>
-<p class="credit">A lightly edited transcript of <a href="https://www.youtube.com/watch?v=R8C5_OHKSBA" target="_blank" rel="noopener noreferrer">this YouTube video</a> · published 23 May 2026</p>
+<p class="credit">A lightly edited transcript of <a href="https://www.youtube.com/watch?v=R8C5_OHKSBA" target="_blank" rel="noopener noreferrer">this YouTube video</a> · published 23 May 2026 · <a href="../#cat-islam-and-spirituality">Islam &amp; Spirituality</a></p>
 <details class="toc"><summary>Contents</summary><div class="toc">
 <ul>
 <li><a href="#the-pathology-lab-in-the-basement">The Pathology Lab in the Basement</a></li>
